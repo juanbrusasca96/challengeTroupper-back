@@ -73,7 +73,7 @@ const winAverage = async (req, res) => {
     }
 }
 
-// Función para realizar una jugada en una máquina tragamonedas.
+// Función para obtener la información de un usuario.
 const getInfo = async (req, res) => {
     const { name } = req.params;
     try {
